@@ -2,11 +2,15 @@
   width: 100%;
   max-width: 1184px;
   margin: 92px auto;
-  background-image: url('../../images/cover-trains.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 50%;
   position: relative;
+}
+
+.cover::before {
+  display: block;
+  content: "";
+  background: url('../../images/cover-trains.jpg') no-repeat;
+  background-size: cover;
+  padding-bottom: 62.5%;
 }
 
 @media screen and (max-width: 768px) {

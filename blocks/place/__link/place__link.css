@@ -5,3 +5,7 @@
   color: #ffffff;
   text-rendering: optimizeLegibility;
 }
+
+.place__link:hover {
+  opacity: .8;
+}

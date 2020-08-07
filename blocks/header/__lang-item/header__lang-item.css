@@ -2,6 +2,6 @@
   margin-right: 18px;
 }
 
-.header__lang-item:last-of-type {
+.header__lang-item:last-child {
   margin-right: 0;
 }
